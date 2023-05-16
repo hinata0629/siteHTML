@@ -8,38 +8,96 @@
    </head>
 <body>
 <header>
-    <h2>Go愛好家コミュニティ</h2>
-    <ul class="list1">
-        <li><span style="color:blue;"><u>Home</u></span></li>
-        <li><span style="color:blue;"><u>About</u></span></li>
-        <li><span style="color:blue;"><u>News</u></span></li>
-        <li><span style="color:blue;"><u>Contact</u></span></li>
-    </ul>
+    <h1>Go愛好家コミュニティ</h1>
+    <nav class="navigation-list">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>News</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+    </nav>
+
 </header>
 
 <main>
-    <h3>Go言語のマスコットキャラクター</h3>
-    <img src="img/go-gopher.webp" alt="Gopher" >
-    <h3>このコミュニティについて</h3>
-    <p>Go言語愛好家コミュニティは、Go言語を愛する人たちにためのコミュニティです。加入するためにはGopherの人形を購入することが必要です。</p>
-    <h3>ニュース</h3>
+
+    <div class="about-character">
+        <h2>Go言語のマスコットキャラクター</h2>
+        <img src="img/go-gopher.webp" alt="Gopher" >
+    </div>
+
+   <div class="about-community">
+       <h2>このコミュニティについて</h2>
+       <p>Go言語愛好家コミュニティは、Go言語を愛する人たちにためのコミュニティです。加入するためにはGopherの人形を購入することが必要です。</p>
+   </div>
+
+    <div class="news">
+        <h2>ニュース</h2>
         <ul>
             <li>Go言語愛好家グッズを販売しています。</li>
             <li>Go言語愛好家グッズを販売しています。</li>
             <li>Go言語愛好家グッズを販売しています。</li>
         </ul>
-    <h3>コミュニティ概要</h3>
-    <p><b>設立日</b>　　2023年5月3日</p>
-    <p><b>　長　</b>　　市川詩恩</p>
-    <p><b>所在地</b>　　横浜国立大学</P>
-    <p><b>会員数</b>　　70億人</p>
+    </div>
 
+    <div class="summary-community">
+        <h2>コミュニティ概要</h2>
+        <table class="コミュニティ概要">
+            <tr>
+                <th>
+                    設立日
+                </th>
+                <td>
+                    2023年5月3日
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    長
+                </th>
+                <td>
+                    市川詩恩
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    所在地
+                </th>
+                <td>
+                    横浜国立大学
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    会員数
+                </th>
+                <td>
+                    70億人
+                </td>
+            </tr>
+        </table>
+    </div>
 
-    <h3>お問い合わせ</h3>
-    <p>お名前<input></p>
-    <p>メールアドレス<input></p>
-    <p>お問合せ内容<textarea></textarea></p>
-    <input type="submit">
+    <div class="form">
+        <h2>お問い合わせ</h2>
+        <form>
+            <label for="user-name">
+                お名前
+            </label>
+            <input id="user-name">
+            <label for="mail-address">
+                メールアドレス
+            </label>
+            <input id="mail-address">
+            <label for="お問い合わせ内容">
+                お問い合わせ内容
+            </label>
+            <textarea id="お問い合わせ内容"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+
 </main>
 
 <footer>
